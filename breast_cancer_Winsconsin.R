@@ -8,7 +8,7 @@
 
 BreastCancerWinsconsin <- function(BreastCancer, trainRatio){
   
-  # Loading packgaes
+  # Loading packages
   library('RSNNS')
   library('mclust')
   
