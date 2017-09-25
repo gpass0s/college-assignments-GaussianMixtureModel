@@ -52,6 +52,7 @@ data("BreastCancer")
 ACC <- vector()
 MSE <- vector()
 
+# Testing the algorithm 10 times in order to check its accuracy and perfomance
 for (i in 1:10){
 
   solution <- BreastCancerWinsconsin(BreastCancer,0.3)
